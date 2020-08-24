@@ -46,6 +46,8 @@ The following variables can be set to customize the build process for
 your program. These should be defined in the primary makefile only;
 there is no need to modify the make "include" files.
 
+Required variables:
+
 * PROG
 
 > The name of the program to build. Do not tack on the extension.
@@ -54,6 +56,15 @@ there is no need to modify the make "include" files.
 
 > List of source files to build the program.
 
+* SRCDIR
+
+> Directory that contains the sources for the main program.
+> This should be relative to the makefile.
+
 * MAIN
 
-> Name of the class that holds the entry-point Main()
+> Name of the class that holds the entry-point *Main()*
+
+* BINDIR
+
+> Target directory for built artifacts.
