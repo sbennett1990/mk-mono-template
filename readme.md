@@ -5,8 +5,8 @@ named with the suffix ".mk".
 
 # Makefiles
 
-mono.prog.mk		- building programs from source files
-mono.lib.mk		- support for building libraries (i.e. projects that aren't part of the 'main' program)
+* mono.prog.mk		- building programs from source files
+* mono.lib.mk		- support for building libraries (i.e. projects that aren't part of the 'main' program)
 
 # Caveats
 
