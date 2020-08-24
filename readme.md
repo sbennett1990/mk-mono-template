@@ -14,7 +14,33 @@ These makefiles only work with BSD make because they depend on BSD
 extensions. Additionally, they have only been tested on OpenBSD
 because that's what I use.
 
-# Variables
+# mono.prog.mk
+
+## Targets
+
+**all:**  
+**release:**
+
+> Build the program and the libraries it depends on.
+
+**clean:**
+
+> Remove the program and any other automatically generated files
+> (including files from **debug** builds).
+
+**debug:**
+
+> Build a debug version of the program and dependencies.
+
+**libs:**
+
+> Build any dependent libraries.
+
+**obj:**
+
+> Create the output directory. This should be ran before anything else.
+
+## Variables
 
 The following variables can be set to customize the build process for
 your program. These should be defined in the primary makefile only;
