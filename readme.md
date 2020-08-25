@@ -2,14 +2,17 @@
 
 This is the README file for the make "include" files for Mono/C# programs
 built on OpenBSD.
+These makefiles use the **csc** compiler that is included as part of
+the Mono package; they do not currently utilize **msbuild** or **xbuild**.
 The files can be copied into specific directories, and are, by convention,
 named with the suffix ".mk".
 
 ## Caveats
 
 These makefiles only work with BSD make because they depend on BSD
-extensions. Additionally, they have only been tested on OpenBSD
-because that's what I use.
+extensions.
+Additionally, they have only been tested on OpenBSD because that's
+what I use.
 
 ## Makefiles
 
@@ -109,7 +112,8 @@ Optional variables:
 
 * DOCFILE
 
-> The name of the file containing generated XML comments.
+> Specifies an XML file where processed documentation comments are to
+> be written.
 
 * CSSYMBOL
 
