@@ -118,3 +118,34 @@ Optional variables:
 * CSSYMBOL
 
 > List of simicolon-separated symbols to define for the build.
+
+### mono.lib.mk
+
+The include file **"mono.lib.mk"** handles building dependent C#
+libraries from one or more source files.
+
+#### Targets
+
+**all:**  
+**release:**
+
+> Build the libraries.
+
+#### Variables
+
+The following variables are used to build dependent libraries.
+
+Required variables:
+
+* LIB
+
+> The name of the library, which is also the name of the directory
+> containing the sources (relative to the *Makefile*).
+> Do not tack on the extension.
+
+Optional variables:
+
+* LANG
+
+> Which version of the C# language the program should be built
+> with. The default is version **7.0**.
