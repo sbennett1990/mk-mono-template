@@ -5,16 +5,16 @@ built on OpenBSD.
 The files can be copied into specific directories, and are, by convention,
 named with the suffix ".mk".
 
-## Makefiles
-
-* mono.prog.mk		- building programs from source files
-* mono.lib.mk		- support for building libraries (i.e. projects that aren't part of the 'main' program)
-
 ## Caveats
 
 These makefiles only work with BSD make because they depend on BSD
 extensions. Additionally, they have only been tested on OpenBSD
 because that's what I use.
+
+## Makefiles
+
+* mono.prog.mk		- building programs from source files
+* mono.lib.mk		- support for building libraries (i.e. projects that aren't part of the 'main' program)
 
 ### mono.prog.mk
 
