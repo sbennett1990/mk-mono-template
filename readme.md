@@ -16,6 +16,13 @@ because that's what I use.
 * mono.prog.mk		- building programs from source files
 * mono.lib.mk		- support for building libraries (i.e. projects that aren't part of the 'main' program)
 
+These include files can be included in your primary *Makefile*
+like so:
+
+	.include "mono.prog.mk"
+
+These should be included at the **end** of your *Makefile*.
+
 ### mono.prog.mk
 
 The include file **"mono.prog.mk"** handles building C# programs
