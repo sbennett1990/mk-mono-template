@@ -35,7 +35,8 @@ from one or more source files.
 
 **debug:**
 
-> Build a debug version of the program and dependencies.
+> Build a debug version of the program and dependencies. Does
+> not optimize the code and it defines the **DEBUG** symbol.
 
 **libs:**
 
