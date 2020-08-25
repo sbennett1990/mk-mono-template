@@ -149,3 +149,12 @@ Optional variables:
 
 > Which version of the C# language the program should be built
 > with. The default is version **7.0**.
+
+* DOCFILE
+
+> Specifies an XML file where processed documentation comments are to
+> be written.
+
+* CSSYMBOL
+
+> List of simicolon-separated symbols to define for the build.
