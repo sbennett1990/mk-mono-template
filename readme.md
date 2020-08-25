@@ -23,6 +23,10 @@ like so:
 
 These should be included at the **end** of your *Makefile*.
 
+The variables used to customize the build process for
+your program should be defined in the primary *Makefile* only;
+there is no need to modify the make include files.
+
 ### mono.prog.mk
 
 The include file **"mono.prog.mk"** handles building C# programs
@@ -55,9 +59,7 @@ from one or more source files.
 
 #### Variables
 
-The following variables can be set to customize the build process for
-your program. These should be defined in the primary makefile only;
-there is no need to modify the make "include" files.
+The following variables are used to build your program.
 
 Required variables:
 
